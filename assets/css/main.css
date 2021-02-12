@@ -2815,7 +2815,7 @@
 		#header nav {
 			height: inherit;
 			line-height: inherit;
-			position: absolute;
+			position: fixed;
 			right: 1.25em;
 			top: 0;
 			vertical-align: middle;
@@ -2877,12 +2877,12 @@
 			}
 
 		#header.alt {
-			background-color: transparent;
+			background-color: #323037;
 			border: 0;
 			box-shadow: none;
-			height: 3.25em;
-			line-height: 3.25em;
-			position: absolute;
+			height: 4em;
+			line-height: 4em;
+			position: fixed;
 		}
 
 			#header.alt h1 {
@@ -2896,12 +2896,12 @@
 				}
 
 			#header.alt nav {
-				right: 2em;
-				top: 2em;
+				left: 2em;
+				vertical-align: center;
 			}
 
 				#header.alt nav a {
-					color: #ddd;
+					color: rgb(235, 235, 235);
 				}
 
 					#header.alt nav a:active, #header.alt nav a:hover {
@@ -2928,7 +2928,7 @@
 		text-decoration: none;
 		height: 100%;
 		left: 0;
-		position: absolute;
+		position: fixed;
 		top: 0;
 		width: 100%;
 		display: none;
@@ -3119,7 +3119,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 10em 0 5em 0;
+				padding: 8em 0 3em 0;
 			}
 
 				#banner h2 {
@@ -3131,7 +3131,7 @@
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 9em 0 7em 0;
+				padding: 6em 0 3em 0;
 			}
 
 		}
@@ -3139,7 +3139,7 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 6em 2em 6em 2em;
+				padding: 3em 2em 3em 2em;
 			}
 
 				#banner br {
@@ -3159,7 +3159,7 @@
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 4em 2em 4em 2em;
+				padding: 2em 2em 2em 2em;
 			}
 
 		}
