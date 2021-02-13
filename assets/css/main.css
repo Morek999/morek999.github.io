@@ -1674,7 +1674,7 @@
 		color: #484848;
 		font-weight: 700;
 		line-height: 1em;
-		margin: 0 0 1em 0;
+		margin: 0 0 0.5em 0;
 		text-transform: uppercase;
 	}
 
@@ -2003,7 +2003,9 @@
 
 				.feature-grid .feature .image img {
 					display: inline;
-					max-width: 100%;
+					width: 150px;
+					height: 150px;
+					object-fit: cover;
 				}
 
 			.feature-grid .feature:nth-child(odd) .content, .feature-grid .feature:nth-child(odd) .image {
@@ -2880,8 +2882,8 @@
 			background-color: #323037;
 			border: 0;
 			box-shadow: none;
-			height: 4em;
-			line-height: 4em;
+			height: 3em;
+			line-height: 3em;
 			position: fixed;
 		}
 
