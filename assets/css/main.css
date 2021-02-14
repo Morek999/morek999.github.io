@@ -1650,8 +1650,12 @@
 
 	a {
 		text-decoration: underline;
-		color: #f32853;
+		color: #f80; /*#f32853;*/
 	}
+
+		a b {
+			color: #f80;
+		}
 
 		a:hover {
 			text-decoration: none;
@@ -3116,6 +3120,10 @@
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
 			text-transform: uppercase;
+		}
+
+		#banner b {
+			color: #f80
 		}
 
 		@media screen and (max-width: 1280px) {
