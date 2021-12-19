@@ -1990,6 +1990,10 @@
 			display: block;
 		}
 
+		.feature-grid .feature-row {
+			display: inline-block;
+		}
+
 		.feature-grid .feature {
 			display: inline-block;
 			float: left;
